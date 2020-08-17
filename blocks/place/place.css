@@ -6,9 +6,10 @@
 @import url(./__link/place__link.css);
 
 .place {
+    font-family: 'Inter', Arial, sans-serif;
     max-width: 984px;
     display: grid;
-    grid-template: 76px 1fr/1fr 1fr;
+    grid-template: auto 1fr/1fr 1fr;
     row-gap: 48px;
     column-gap: 40px;
     margin-bottom: 80px;
@@ -18,24 +19,10 @@
     margin-bottom: 0;
 }
 
-.place_long-title {
-    grid-template: 152px 1fr/1fr 1fr;
-    max-width: 984px;
-    display: grid;
-    row-gap: 48px;
-    column-gap: 40px;
-    margin-bottom: 80px;
-}
-
 @media screen and (max-width: 1140px) {
     .place {
         column-gap: 32px;
         max-width: 928px;
-    }
-
-    .place_long-title {
-        max-width: 928px;
-        column-gap: 32px;
     }
 }
 
@@ -46,24 +33,10 @@
         max-width: 720px;
         grid-template: 46px 1fr/1fr 1fr;
     }
-
-    .place_long-title {
-        column-gap: 28px;
-        margin-bottom: 72px;
-        max-width: 720px;
-        grid-template: 46px 1fr/1fr 1fr;
-    }
 }
 
 @media screen and (max-width: 425px) {
     .place {
-        display: block;
-        max-width: 320px;
-        margin-bottom: 48px;
-        column-gap: 32px;
-    }
-
-    .place_long-title {
         display: block;
         max-width: 320px;
         margin-bottom: 48px;

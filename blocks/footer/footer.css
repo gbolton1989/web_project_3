@@ -3,10 +3,9 @@
 @import url(./__link/footer__link.css);
 
 .footer {
+    font-family: 'Inter', Arial, sans-serif;
     margin: 92px 0 24px 0;
     max-width: 1184px;
-    max-height: 18px;
-    height: 100vh;
     display: flex;
     justify-content: space-between;
 }
@@ -30,6 +29,5 @@
         flex-direction: column;
         max-width: 168px; 
         margin: 64px 136px 24px 16px;
-        max-height: 198px;
     }
 }
